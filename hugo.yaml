@@ -1,0 +1,32 @@
+baseURL: 'https://samas3.github.io'
+languageCode: 'zh-cn'
+title: "samas3's website"
+theme: ['PaperMod']
+
+# 开启暗色模式
+params:
+  defaultTheme: dark  # 强制暗色，或设为 "auto" 跟随系统
+  ShowShareButtons: true
+  ShowReadingTime: true
+  assets:
+    disableFingerprinting: true
+  
+  # 导航栏菜单
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: "/"
+      weight: 1
+    - identifier: posts
+      name: 博客
+      url: "/posts/"
+      weight: 2
+
+# 允许嵌入 HTML (如果你迁移了旧 HTML 页面)
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+publishDir: "../samas3.github.io"
