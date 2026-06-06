@@ -22,6 +22,10 @@ menu:
       name: 博客
       url: "/posts/"
       weight: 2
+    - identifier: homepage
+      name: 关于
+      url: "https://github.com/samas3"
+      weight: 3
 
 # 允许嵌入 HTML (如果你迁移了旧 HTML 页面)
 markup:
