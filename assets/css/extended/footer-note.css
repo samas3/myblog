@@ -1,0 +1,10 @@
+/* 文章结尾的那句小字 */
+.post-footer-note {
+    margin: 0.5rem 0 0;
+    padding-top: 0.5rem;
+    text-align: center;
+    color: rgb(214, 190, 204);
+    font-size: 0.9rem;
+    font-style: italic;
+    opacity: 0.9;
+}

@@ -1,0 +1,12 @@
+/* 站点级配色微调：往暖粉偏一点点，呼应整体气质 */
+:root {
+    --theme: rgb(32, 29, 33);
+    --entry: rgb(51, 47, 53);
+    --primary: rgb(224, 217, 224);
+    --secondary: rgb(170, 162, 171);
+    --tertiary: rgb(70, 65, 72);
+    --content: rgb(206, 199, 207);
+    --code-block-bg: rgb(51, 47, 53);
+    --code-bg: rgb(60, 56, 62);
+    --border: rgb(60, 57, 64);
+}

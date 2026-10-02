@@ -1,0 +1,26 @@
+/* 正文里的链接 */
+.md-content a:not(.anchor) {
+    color: rgb(226, 184, 200);
+}
+
+/* 引用块左边条 */
+.md-content blockquote {
+    border-inline-start: 0.3rem solid rgb(168, 120, 140);
+}
+
+/* 代码块文字 */
+.md-content pre code {
+    color: rgb(220, 212, 215);
+}
+
+/* 导航栏当前项 */
+.menu .active {
+    color: rgb(226, 184, 200);
+    text-decoration-color: rgb(190, 130, 152);
+}
+
+/* 页脚 / 回顶按钮 hover */
+.footer a:hover,
+.top-link:hover {
+    color: rgb(226, 184, 200);
+}
