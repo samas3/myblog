@@ -10,6 +10,10 @@ params:
   ShowReadingTime: true
   assets:
     disableFingerprinting: true
+
+  # 右上角头像（点击跳转 GitHub 主页）
+  avatar: 'avatar.jpg'
+  avatarURL: 'https://github.com/samas3'
   
   # 导航栏菜单
 menu:
@@ -24,7 +28,7 @@ menu:
       weight: 2
     - identifier: homepage
       name: 关于
-      url: "https://github.com/samas3"
+      url: "/about/"
       weight: 3
 
 # 允许嵌入 HTML (如果你迁移了旧 HTML 页面)

@@ -1,0 +1,18 @@
+/* Avatar in header (site-level override, bundled via theme's assets/css/extended pipeline) */
+.menu-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.menu-avatar a {
+    display: flex;
+    align-items: center;
+}
+
+.menu-avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
