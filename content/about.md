@@ -5,7 +5,7 @@ hideMeta = true
 
 这里是 [samas3](https://github.com/samas3) 的个人主页。
 
-平时主要折腾 Phigros、Minecraft 和各类小工具，踩过的坑和随手做的东西都会记在这个博客里。
+平时主要开发游戏及相关小工具，踩过的坑和随手做的东西都会记在这个博客里。
 
 ## 我的仓库
 
